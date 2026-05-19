@@ -1,0 +1,6 @@
+flask
+httpx[http2]
+python-dotenv
+
+# dev dependencies
+# pytest

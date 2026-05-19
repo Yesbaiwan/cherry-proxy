@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env deno.ts",
+    "check": "deno check deno.ts",
+    "lint": "deno lint deno.ts",
+    "fmt": "deno fmt deno.ts",
+    "ci": "deno check deno.ts && deno lint deno.ts && deno fmt deno.ts"
+  },
+  "compilerOptions": {
+    "strict": true
+  },
+  "fmt": {
+    "lineWidth": 200,
+    "semiColons": true,
+    "singleQuote": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
